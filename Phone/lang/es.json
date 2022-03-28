@@ -177,7 +177,7 @@
     "attended_transfer" : "Transferencia atendida",
     "complete_transfer" : "Transferencia completada",
     "end_transfer_call" : "Finalizar llamada de transferencia",
-    "call" : "Llamada",
+    "call" : "Llamada. No podrás ver el estado del contacto hasta que lo agregues, la otra persona también deberá agregarte para ver tu estado.",
     "cancel_call" : "Llamada cancelada",
     "join_conference_call" : "Unirse a la llamada de conferencia",
     "end_conference_call" : "Finalizar llamada en conferencia",

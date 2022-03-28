@@ -1679,8 +1679,7 @@ function ReceiveCall(session) {
         // With Buddies that are contacts, eg +441234567890 <+441234567890> leave as as
         if(buddyObj.type == "extension" && buddyObj.CallerIDName != callerID){
             UpdateBuddyCalerID(buddyObj, callerID);
-        }
-        else if(buddyObj.type == "contact" && callerID != did && buddyObj.CallerIDName != callerID){
+        }else if(buddyObj.type == "contact" && callerID != did && buddyObj.CallerIDName != callerID){
             UpdateBuddyCalerID(buddyObj, callerID);
         }
     }
@@ -8427,8 +8426,7 @@ function UpdateBuddyList(){
         var today = moment.utc();
         var lastActivity = moment.utc(buddyObj.lastActivity.replace(" UTC", ""));
         var displayDateTime = "";
-        if(lastActivity.isSame(today, 'day'))
-        {
+        if(lastActivity.isSame(today, 'day')){
             displayDateTime = lastActivity.local().format(DisplayTimeFormat);
         } 
         else {
@@ -8887,7 +8885,7 @@ function SelectBuddy(buddy) {
     var presence = "";
 
     if(buddyObj.type == "extension"){
-        presence += buddyObj.presence;
+        presence = buddyObj.presence;
         if(presence == "Unknown") presence = lang.state_unknown;
         if(presence == "Not online") presence = lang.state_not_online;
         if(presence == "Ready") presence = lang.state_ready;

@@ -177,7 +177,7 @@
     "attended_transfer" : "Attended Transfer",
     "complete_transfer" : "Complete Transfer",
     "end_transfer_call" : "End Transfer Call",
-    "call" : "Call",
+    "call" : "Call. You won't be able to see the contact's state until you add it, the other person will also have to do it if they wish to see your state.",
     "cancel_call" : "Cancel Call",
     "join_conference_call" : "Join Conference Call",
     "end_conference_call" : "End Conference Call",
